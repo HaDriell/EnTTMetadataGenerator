@@ -1,0 +1,3 @@
+[submodule "deps/HeaderParserLib"]
+	path = deps/HeaderParserLib
+	url = https://github.com/HaDriell/HeaderParserLib
