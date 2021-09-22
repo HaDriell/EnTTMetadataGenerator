@@ -6,10 +6,10 @@
     "configurations": [
         {
             "name": "EnTTMetadataGenerator",
-            "type": "lldb",
+            "type": "cppvsdbg",
             "request": "launch",
             "program": "${workspaceFolder}/Build/src/EnTTMetadataGenerator.exe",
-            "cwd": "${workspaceFolder}/example",
+            "cwd": "${workspaceFolder}/example"
         }
     ]
 }

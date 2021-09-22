@@ -9,7 +9,7 @@ public:
     float GetMyFloat() const;
 
     //Not annotated function
-    const std::string& GetMyString() { return m_MyString; }
+    const std::string& GetMyString();
 
 private:
     PROPERTY()

@@ -10,10 +10,8 @@
             "args": [
                 "-GNinja",
                 "-BBuild",
-                "-DCMAKE_C_COMPILER=clang",
                 "-DCMAKE_CXX_COMPILER=clang",
-                "-DCMAKE_C_FLAGS=-fdiagnostics-absolute-paths",
-                "-DCMAKE_CXX_FLAGS=-fdiagnostics-absolute-paths",
+                "-DCMAKE_CXX_FLAGS='-fdiagnostics-absolute-paths'",
                 "-DCMAKE_BUILD_TYPE=Debug"
             ],
             "problemMatcher": []
